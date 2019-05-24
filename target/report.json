@@ -1,0 +1,121 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "To test customer id is generated for valid customer",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-test-customer-id-is-generated-for-valid-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71747340669,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in add customer page.",
+            "match": {
+              "location": "Steps.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9960894257,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user fills in the valid customer details",
+            "match": {
+              "location": "Steps.the_user_fills_in_the_valid_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sudha",
+                  "sw tester",
+                  "sudha@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7482755126,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user clicks the submit button.",
+            "match": {
+              "location": "Steps.the_user_clicks_the_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96529247,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user shouid see the customer ID generated.",
+            "match": {
+              "location": "Steps.the_user_shouid_see_the_customer_ID_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@us1"
+          },
+          {
+            "name": "@AddCustomerPlan"
+          },
+          {
+            "name": "@sprint1"
+          }
+        ]
+      }
+    ],
+    "name": "to test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/AddCustomer.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@us1",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 8
+        }
+      },
+      {
+        "name": "@AddCustomerPlan",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
